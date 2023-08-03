@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: c38f14d1878b1be4ea1fe8b9e16a451f
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AluminumLight
+    second: {fileID: 2100000, guid: 0777897444781dd4daea8018948c90ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_CardboardBoxes_01a
+    second: {fileID: 2100000, guid: 415b58e6c252e704c8880ec0f8e1d74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_Cart_Inst
+    second: {fileID: 2100000, guid: 7d6230815c9be944fb73eb8f579c345a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_CleaningCart_Inst
+    second: {fileID: 2100000, guid: b191ab47d802f6743aec07b57c47199f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_ElectricMotor01
+    second: {fileID: 2100000, guid: 2be3d97704baccb49aa31e5a1408488b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_ElectricalSupply
+    second: {fileID: 2100000, guid: 4ec7beafed0090b4dbadf2b371eb2251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_ElectricalSupply_Details
+    second: {fileID: 2100000, guid: a1ff934899b9dc848931894414e81e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_FireExtinguisher_Inst
+    second: {fileID: 2100000, guid: 6cfe4047ab2778945a4fdc289530e8fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_FluorescentLight_Inst
+    second: {fileID: 2100000, guid: 7e4fc90e942e998489fefadfc19b4683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_LampPost_Inst
+    second: {fileID: 2100000, guid: f06833501174f004fb88d754d59edeca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_PlasticBoxes
+    second: {fileID: 2100000, guid: a0a6783a2299b8545acf14bbd86b464c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_PlasticPallet01
+    second: {fileID: 2100000, guid: 11b0ad0c0f657ef4d98bf05eecfc07c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MI_WoodPallet_Inst
+    second: {fileID: 2100000, guid: a1b892c6d575dcc46b93fac8b8b63930, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ml_bag
+    second: {fileID: 2100000, guid: 8f59cf13f16377149be5d7d2c6277660, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpaqueAluminumLight
+    second: {fileID: 2100000, guid: ea08a7a2c05f2f248bc8bf4ec34cdf58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alarmaTextura
+    second: {fileID: 2100000, guid: bbbdc04b598fbb642a1843d217c6af4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: amarilloMetal
+    second: {fileID: 2100000, guid: 7b697dc7efae1ae4c8372409ef53434f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: amarilloPlastic
+    second: {fileID: 2100000, guid: 4bff43f2c04096b4e8ddbfe3dda2dbf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blancoPlastic
+    second: {fileID: 2100000, guid: 5aa089e5e82fdf84c968b8806ef2662d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark
+    second: {fileID: 2100000, guid: 5faed705afd06a8459257a9fa9b4f9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: etiquetas
+    second: {fileID: 2100000, guid: 8372229226f89684babafd5def3e716c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grisPlastic
+    second: {fileID: 2100000, guid: 65827a66d340db543bb73a60072bb3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luzRoja
+    second: {fileID: 2100000, guid: 75f6769d78bfdbb48941740eb7da3041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: negroMetal
+    second: {fileID: 2100000, guid: 0e9e30e2627a4c64d9cce891a6abf514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: negroPlastic
+    second: {fileID: 2100000, guid: 842188b6f6d3526479bdf33315c90418, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redMetal
+    second: {fileID: 2100000, guid: 97eb43fa0f7998d41b1959903af456c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rojoPlastic
+    second: {fileID: 2100000, guid: 6ac542de633f4924e94037f0b9d7d966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ventilador
+    second: {fileID: 2100000, guid: 69c6606158f879743ac4360e1558186e, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 5e1d3940a918cb74986badb1a981b718
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_001
+    second: {fileID: 2100000, guid: 41d21bebfb051ab438eb3ad98428fe79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_002
+    second: {fileID: 2100000, guid: 64a3be8146f83ee42a8929dd7003fa7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_003
+    second: {fileID: 2100000, guid: c13ece2f785fd7e4b9a27b03fa2d1037, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_004
+    second: {fileID: 2100000, guid: c8b953a589053a545996d3217df269b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_005
+    second: {fileID: 2100000, guid: 46f840f3a27c04149b39ce9a157cf66f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_006
+    second: {fileID: 2100000, guid: 6ed978706ed1e6b45a99e4572deb9c6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_007
+    second: {fileID: 2100000, guid: 987008a2583326e4d907cbfa9c3b9f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_008
+    second: {fileID: 2100000, guid: 295e795aac4ed4d47bb8a78fe9faa8b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_009
+    second: {fileID: 2100000, guid: 7d1fe5fd53d83c64ebdb05116e437f91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_010
+    second: {fileID: 2100000, guid: 0b88bc48e13292149ba2f2e4c1642a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_011
+    second: {fileID: 2100000, guid: 09d9599d18777b9438184b2f0b35c2da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_012
+    second: {fileID: 2100000, guid: 7fed80945894b6f49b89da355b19a5a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_013
+    second: {fileID: 2100000, guid: 540fc75ed10e40f4bb190211d68a14ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_014
+    second: {fileID: 2100000, guid: 34edd9237fe891a4bace20c531f8aeea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_015
+    second: {fileID: 2100000, guid: 9b6a92124876ad0439c186e90097f38d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_016
+    second: {fileID: 2100000, guid: fdab47d1ff0204143a4116f2a4a3e672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_017
+    second: {fileID: 2100000, guid: eabf5a4736929f8409d0b0527c1f99ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_018
+    second: {fileID: 2100000, guid: 9bb33e03a0220a744995dffcc2ffffa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_019
+    second: {fileID: 2100000, guid: 2bb694112c0b07744897c20c3dce6b9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_020
+    second: {fileID: 2100000, guid: 170bce96c7fc2554dac3ee5a82a1193d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_021
+    second: {fileID: 2100000, guid: 11b10752fad0e23409c544a973244434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_022
+    second: {fileID: 2100000, guid: 2ccdd976cdd380b4d9b5666131da398a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_023
+    second: {fileID: 2100000, guid: 23686c04004404c4d94b4b85b243877d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_024
+    second: {fileID: 2100000, guid: 9f655394867aee04bb2ca428a96105bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Bod_025
+    second: {fileID: 2100000, guid: dd6acade7c1efce478bb5dfaf0adaa63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Coc_001
+    second: {fileID: 2100000, guid: 8d2f0635a29c5954f9f6e165023cdff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Coc_002
+    second: {fileID: 2100000, guid: 4aa3f1f9020a69b4392f38f2aa55a45b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Coc_003
+    second: {fileID: 2100000, guid: d91a9559de6e54d4d863a182c49156d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Coc_004
+    second: {fileID: 2100000, guid: 4fe37add21f50324cb67c8f52954d0fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Coc_005
+    second: {fileID: 2100000, guid: 654b6a726b5ea21429e12872a14a9e57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Whe_001
+    second: {fileID: 2100000, guid: 386a6f9c25f331d4199e68cdd999e39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Mazda6_Whe_002
+    second: {fileID: 2100000, guid: 4b7d931b00ee0654ca54e362af1c14bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Plate 24_001
+    second: {fileID: 2100000, guid: 9a461ba8a4e37ba4891a4e8c7fc068d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Plate 24_002
+    second: {fileID: 2100000, guid: 4208d340e74712f42be05a9bef6e0cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Plate 24_003
+    second: {fileID: 2100000, guid: 386d7d93aee08e940af2ee80e789e0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Plate 24_004
+    second: {fileID: 2100000, guid: 28f8ad6a5a5d0bf4c9d1c022460b1206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Plate 24_005
+    second: {fileID: 2100000, guid: 5b2760c7c7a971b488df77e1355eab0e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.02032
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
