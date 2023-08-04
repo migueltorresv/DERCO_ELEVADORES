@@ -7,6 +7,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(AudioSource))]
 public class CheckLengthAudio : MonoBehaviour
 {
+    [SerializeField] private float _aditionalClipLength = 0;
     [SerializeField] private UnityEvent OnAudioClipFinished;
     private AudioSource _audioSource;
     private void Start()
@@ -17,7 +18,7 @@ public class CheckLengthAudio : MonoBehaviour
     
     private IEnumerator CountAudioClipLength()
     {
-        float clipLenght = _audioSource.clip.length;
+        float clipLenght = _audioSource.clip.length + _aditionalClipLength;
         yield return new WaitForSeconds(clipLenght);
         OnAudioClipFinished?.Invoke();
     }
