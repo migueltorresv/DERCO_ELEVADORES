@@ -17,9 +17,15 @@ public class DebugPokeButton : MonoBehaviour
         _pointableUnityEvent.WhenRelease.Invoke();
     }
     
-    [ContextMenu(nameof(InvokeSelectdEvent))]
-    public void InvokeSelectdEvent()
+    [ContextMenu(nameof(InvokeSelectedEvent))]
+    public void InvokeSelectedEvent()
     {
         _pointableUnityEvent.WhenSelect.Invoke();
+    }
+
+    [ContextMenu(nameof(InvokeUnselectedEvent))]
+    public void InvokeUnselectedEvent()
+    {
+        _pointableUnityEvent.WhenUnselect.Invoke();
     }
 }
