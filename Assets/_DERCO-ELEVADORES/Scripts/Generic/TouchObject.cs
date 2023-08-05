@@ -9,7 +9,7 @@ public class TouchObject : MonoBehaviour
     [SerializeField] private string _tagName;
     [SerializeField] private UnityEvent OnTriggerEntered;
     [SerializeField] private UnityEvent OnTriggerExited;
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(_tagName))
