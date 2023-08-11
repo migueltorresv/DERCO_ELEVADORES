@@ -7,20 +7,22 @@ using DG.Tweening;
 [RequireComponent(typeof(OneGrabRotateTransformer))]
 public class HandleGrabRotate : MonoBehaviour
 {
-    [SerializeField] private float _timeToRestartRotationConstraint = 1;
+    private float _timeToRestartRotationConstraint = 1;
     [SerializeField] private UnityEvent OnMinAngleConstrainAchieved;
     [SerializeField] private UnityEvent OnMaxAngleConstrainAchieved;
     private OneGrabRotateTransformer _oneGrabRotateTransformer;
     private float _achieveMinAngleRotation;
-    private float _localRotationZ;
+    private float _localRotation;
+    private int _indexRotationAxisConstrained;
     private bool _isMinAngleRotationAchieved;
     private bool _isGrabbableSeleted;
-
+    
     public bool IsGrabbableSeleted
     {
         get => _isGrabbableSeleted;
         set => _isGrabbableSeleted = value;
     }
+    
     public bool IsMinAngleRotationAchieved
     {
         get => _isMinAngleRotationAchieved;
@@ -33,17 +35,24 @@ public class HandleGrabRotate : MonoBehaviour
                 OnMaxAngleConstrainAchieved?.Invoke();
         }
     }
-
+    
     private void Start()
     {
         _oneGrabRotateTransformer = GetComponent<OneGrabRotateTransformer>();
+        _indexRotationAxisConstrained = (int)_oneGrabRotateTransformer.RotationAxis;
     }
 
     private void Update()
     {
+        CheckRotateAxisConstraint();
+    }
+
+    private void CheckRotateAxisConstraint()
+    {
         _achieveMinAngleRotation = _oneGrabRotateTransformer.Constraints.MinAngle.Value;
-        _localRotationZ = Mathf.DeltaAngle(0, transform.localEulerAngles.z);
-        IsMinAngleRotationAchieved = _localRotationZ <= _achieveMinAngleRotation;
+        Vector3 localAngles = transform.localEulerAngles;
+        _localRotation = Mathf.DeltaAngle(0, localAngles[_indexRotationAxisConstrained]);
+        IsMinAngleRotationAchieved = _localRotation <= _achieveMinAngleRotation;
     }
 
     [ContextMenu(nameof(RestartRotationConstraint))]

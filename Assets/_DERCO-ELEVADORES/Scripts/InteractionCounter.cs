@@ -23,4 +23,11 @@ public class InteractionCounter : MonoBehaviour
             _isCountReached = true;
         }
     }
+
+    public void Remove()
+    {
+        if (_count <= 0)
+            return;
+        _count--;
+    }
 }
