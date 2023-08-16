@@ -16,6 +16,7 @@ TagManager:
   - focusLantern
   - airGun
   - handGrasa
+  - gatilloPosicionReposo
   layers:
   - Default
   - TransparentFX
