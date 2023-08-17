@@ -23,8 +23,6 @@ public class MoveAxis : MonoBehaviour
 
     private void MoveAxisY()
     {
-        
-
         Vector3 direction = new Vector3(0, _amount, 0);
         Vector3 velocity = direction * _movementSpeed;
         transform.Translate(velocity * Time.deltaTime);
@@ -34,4 +32,8 @@ public class MoveAxis : MonoBehaviour
         position.y = Mathf.Clamp(position.y, _bounceBotton, _bounceTop);
         transform.localPosition = position;
     }
+
+    [ContextMenu(nameof(RestartAxisY))]
+    public void RestartAxisY() => transform.localPosition = Vector3.zero;
+    
 }
