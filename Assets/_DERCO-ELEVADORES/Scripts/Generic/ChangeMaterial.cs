@@ -8,20 +8,25 @@ public class ChangeMaterial : MonoBehaviour
 {
     [SerializeField] private Material _materialToChange;
     private MeshRenderer _meshRenderer;
-    private Material _initialMaterial;
+    private Material[] _initialMaterials;
+    private Material[] _newMaterials;
     private void Start()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
-        _initialMaterial = _meshRenderer.material;
+        _initialMaterials = _meshRenderer.materials;
     }
 
     public void ChangeNew()
     {
-        _meshRenderer.material = _materialToChange;
+        _newMaterials = new Material[_meshRenderer.materials.Length];
+        for (int i = 0; i < _newMaterials.Length; i++)
+            _newMaterials[i] = _materialToChange;
+        
+        _meshRenderer.materials = _newMaterials;
     }
 
     public void ReturnOldMaterial()
     {
-        _meshRenderer.material = _initialMaterial;
+        _meshRenderer.materials = _initialMaterials;
     }
 }
