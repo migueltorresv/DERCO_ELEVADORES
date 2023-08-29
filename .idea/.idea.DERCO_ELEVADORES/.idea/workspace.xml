@@ -14,7 +14,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Generic/ChangeMaterial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Generic/TouchObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Data/WayPointConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Generic/DebugText.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2T5L8tZ76uo1WD3NoSsS2rgi7GY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,6 +66,7 @@
       <workItem from="1690811697120" duration="596000" />
       <workItem from="1690908066320" duration="3418000" />
       <workItem from="1691008825588" duration="3590000" />
+      <workItem from="1692919709161" duration="1156000" />
     </task>
     <servers />
   </component>
