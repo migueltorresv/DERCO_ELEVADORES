@@ -12,4 +12,10 @@ public class MovePath : MonoBehaviour
         transform.DOMove(_wayPoints[waypointConfig.WayPoint.Index].position, waypointConfig.WayPoint.TimeDuration);
         transform.DORotate(_wayPoints[waypointConfig.WayPoint.Index].eulerAngles, waypointConfig.WayPoint.TimeRotation);
     }
+
+    public void TraslatePoint(WayPointConfiguration waypointConfig)
+    {
+        transform.position = _wayPoints[waypointConfig.WayPoint.Index].position;
+        transform.eulerAngles = _wayPoints[waypointConfig.WayPoint.Index].eulerAngles;
+    }
 }
