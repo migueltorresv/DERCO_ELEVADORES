@@ -8,6 +8,7 @@ public class InteractionCounter : MonoBehaviour
     [SerializeField] private int _maxCount;
     [SerializeField] private UnityEvent OnCountReached;
     [SerializeField] private UnityEvent OnCountNoReached;
+    [SerializeField] private UnityEvent OnCountAdded;
 
     private int _count = 0;
     private bool _isCountReached = false;
@@ -18,6 +19,7 @@ public class InteractionCounter : MonoBehaviour
             return;
         
         _count++;
+        OnCountAdded?.Invoke();
         if (_count >= _maxCount)
         {
             OnCountReached?.Invoke();

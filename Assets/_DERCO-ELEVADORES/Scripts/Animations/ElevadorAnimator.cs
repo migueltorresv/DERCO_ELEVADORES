@@ -14,6 +14,10 @@ public class ElevadorAnimator : MonoBehaviour
     [SerializeField] private UnityEvent OnFinishedDownShortAnim;
     [SerializeField] private UnityEvent OnBeganDownAfterShotAnim;
     [SerializeField] private UnityEvent OnFinishedDownAfterShotAnim;
+    [Space] 
+    [Space]
+    [SerializeField] private UnityEvent OnBeganUpAnim;
+    [SerializeField] private UnityEvent OnFinishedUpAnim;
 
     public void BeginAnimation()
     {
@@ -47,5 +51,15 @@ public class ElevadorAnimator : MonoBehaviour
     public void EndDownAfterShotAnimation()
     {
         OnFinishedDownAfterShotAnim?.Invoke();
+    }
+
+    public void BeginUpAnimation()
+    {
+        OnBeganUpAnim?.Invoke();
+    }
+    
+    public void EndUpAnimation()
+    {
+        OnFinishedUpAnim?.Invoke();
     }
 }
