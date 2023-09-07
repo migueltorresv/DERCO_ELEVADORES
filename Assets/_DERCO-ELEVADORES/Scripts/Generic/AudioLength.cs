@@ -9,7 +9,7 @@ public class AudioLength : MonoBehaviour
 {
     [SerializeField] private UnityEvent OnAudioClipFinished;
     private AudioSource _audioSource;
-    private void Start()
+    private void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
     }
