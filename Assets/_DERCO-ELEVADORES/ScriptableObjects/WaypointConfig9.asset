@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPoint:
     Index: 9
-    TimeDuration: 4
-    TimeRotation: 3
+    TimeDuration: 10
+    TimeRotation: 12
