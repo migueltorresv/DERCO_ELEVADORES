@@ -9,15 +9,16 @@ public class AudioLength : MonoBehaviour
 {
     [SerializeField] private UnityEvent OnAudioClipFinished;
     private AudioSource _audioSource;
+    private float _clipLenght;
     private void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
+        _clipLenght = _audioSource.clip.length;
     }
     
     private IEnumerator CountAudioClipLength()
     {
-        float clipLenght = _audioSource.clip.length;
-        yield return new WaitForSeconds(clipLenght);
+        yield return new WaitForSeconds(_clipLenght);
         OnAudioClipFinished?.Invoke();
         StopRoutine();
     }
