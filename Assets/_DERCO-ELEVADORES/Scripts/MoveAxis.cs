@@ -9,6 +9,8 @@ public class MoveAxis : MonoBehaviour
     [SerializeField] private float _movementSpeed = 1;
     [SerializeField] private float _bounceTop = 1.2f;
     [SerializeField] private float _bounceBotton = 0;
+    [SerializeField] private bool _hasAditionalBounceTop = false;
+    [SerializeField] private float _aditionalBounceTop = 0;
     [SerializeField] private UnityEvent OnValueAmountChanged;
     [SerializeField] private UnityEvent OnValueAmountNoChanged;
     
@@ -18,6 +20,12 @@ public class MoveAxis : MonoBehaviour
     {
         get => _amount;
         set => _amount = value;
+    }
+
+    public bool HasAditionalBounceTop
+    {
+        get => _hasAditionalBounceTop;
+        set => _hasAditionalBounceTop = value;
     }
 
     private void Update()
@@ -33,7 +41,8 @@ public class MoveAxis : MonoBehaviour
         SoundMovement(velocity.magnitude);
         //limit movement
         Vector3 position = transform.localPosition;
-        position.y = Mathf.Clamp(position.y, _bounceBotton, _bounceTop);
+        float finalBounceTop = _hasAditionalBounceTop ? _bounceTop + _aditionalBounceTop : _bounceTop;
+        position.y = Mathf.Clamp(position.y, _bounceBotton, finalBounceTop);
         transform.localPosition = position;
         
     }
