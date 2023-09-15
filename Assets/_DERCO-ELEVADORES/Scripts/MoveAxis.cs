@@ -43,13 +43,11 @@ public class MoveAxis : MonoBehaviour
         float absMagnitude = Mathf.Abs(magnitude);
         if (absMagnitude > 0 && !_hasSounded)
         {
-            Debug.Log("Sonar");
             OnValueAmountChanged?.Invoke();
             _hasSounded = true;
         }
         else if (absMagnitude <= 0 && _hasSounded)
         {
-            Debug.Log("Dejar de sonar");
             OnValueAmountNoChanged?.Invoke();
             _hasSounded = false;
         }
