@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@12.1.7/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/StageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Animations/CelularAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Data/WayPointConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/SceneManagerGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -80,6 +81,7 @@
       <workItem from="1694473607148" duration="1910000" />
       <workItem from="1694567097236" duration="9295000" />
       <workItem from="1694744138124" duration="1138000" />
+      <workItem from="1694808741081" duration="3232000" />
     </task>
     <servers />
   </component>
