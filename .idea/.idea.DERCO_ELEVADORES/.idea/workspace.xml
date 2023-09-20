@@ -13,13 +13,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Generic/ChangeMaterial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Generic/ChangeMat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Managers/StageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Generic/TouchObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@12.1.7/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/StageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Animations/CelularAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/Data/WayPointConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_DERCO-ELEVADORES/Scripts/SceneManagerGame.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2T5L8tZ76uo1WD3NoSsS2rgi7GY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,6 +80,7 @@
       <workItem from="1694567097236" duration="9295000" />
       <workItem from="1694744138124" duration="1138000" />
       <workItem from="1694808741081" duration="3232000" />
+      <workItem from="1695157369895" duration="1710000" />
     </task>
     <servers />
   </component>
